@@ -22,20 +22,23 @@ body{
     border: 2px solid red;
     overflow: scroll;
     background-image: url(img/imagem-de-fundp.png);
-    background-position: center;
+    background-position: fixed;
     background-size: 100%;
 }
 
 .no-item{
-    width: 80%;
-    height: 10%;
-    margin: auto;
-}
+    width: 100%;
+    margin-bottom: 10px;
+} 
+/* .no-item img{
+    width: 100%;
+} */
 
 .txt-item{
     width: 80%;
     height: 10%;
     margin: auto;
+    margin-top: 100px;
     margin-bottom: 10%;
 }
 
@@ -168,4 +171,13 @@ body{
     padding-left: 2%;
 }
 
+
+.modal1{
+    display: none;
+    width: 50%;
+    height: 20vh;
+    background-color: brown;
+    margin: 0 auto;
+    overflow: auto;
+}
 
