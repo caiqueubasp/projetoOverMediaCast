@@ -71,7 +71,7 @@ body {
     margin-bottom: 5%;
     animation-delay: 5s;
     animation: item1-pulse 5s infinite;
-    /* animation-direction: alternate; */
+    animation-direction: normal;
     -webkit-animation-name: item1-pulse;
     animation-name: item1-pulse;
 }
@@ -126,7 +126,7 @@ body {
     margin-bottom: 5%;
     animation-delay: 5s;
     animation: item2-pulse 5s infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
     -webkit-animation-name: item2-pulse;
     animation-name: item2-pulse;
 }
@@ -177,7 +177,7 @@ body {
     margin-bottom: 5%;
     animation-delay: 5s;
     animation: item3-pulse 5s infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
     -webkit-animation-name: item3-pulse;
     animation-name: item3-pulse;
 }
@@ -228,7 +228,7 @@ body {
     margin-bottom: 5%;
     animation-delay: 5s;
     animation: item4-pulse 5s infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
     -webkit-animation-name: item4-pulse;
     animation-name: item4-pulse;
 }
