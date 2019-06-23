@@ -4,49 +4,29 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body,
-html {
+body, html {
     width: 100%;
     height: 100%;
-    /* font-family: Arial, Tahoma, sans-serif; */
+    
 }
 
 body {
     background-color: black;
-    /* position: relative;
-    margin: auto;
-    width: 100%;
-    height: 100vh; */
-    /* border: 1px solid white; */
-    /* border-radius: 10px; */
-    /* overflow: scroll; */
-    /* background-image: url(img/imagem-de-fundp.png); */
-    /* background-position: fixed; */
-    /* background-size: 40%; */
+    
 }
 
 
 .main-box {
     position: relative;
     margin: auto;
-    /* margin-top: 3%;
-    margin-bottom: 2%; */
     width: 30%;
     height: 100%;
     border: 2px solid red;
-    /* overflow: scroll; */
     background-image: url(img/imagem-de-fundp.png);
     background-position: fixed;
     background-size: 100%;
 }
 
-/* .no-item{
-    width: 100%;
-    margin-bottom: 10px;
-}  */
-/* .no-item img{
-    width: 100%;
-} */
 
 .txt-item {
     width: 80%;
@@ -103,7 +83,6 @@ body {
 .item1-icon {
     width: 20%;
     height: 100%;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +91,6 @@ body {
 .item1-text {
     width: 80%;
     height: 100%;
-    /* border:  1px solid black; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -154,7 +132,6 @@ body {
 .item2-icon {
     width: 20%;
     height: 100%;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +140,6 @@ body {
 .item2-text {
     width: 80%;
     height: 100%;
-    /* border:  1px solid black; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -205,7 +181,6 @@ body {
 .item3-icon {
     width: 20%;
     height: 100%;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,7 +189,6 @@ body {
 .item3-text {
     width: 80%;
     height: 100%;
-    /* border:  1px solid black; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -256,7 +230,6 @@ body {
 .item4-icon {
     width: 20%;
     height: 100%;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,7 +238,6 @@ body {
 .item4-text {
     width: 80%;
     height: 100%;
-    /* border:  1px solid black; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -300,7 +272,6 @@ p {
 
 
 .modal1 {
-    /* display: none; */
     width: 70%;
     height: 20vh;
     background-color: white;
@@ -343,7 +314,6 @@ p {
 
 
 .modal2 {
-    /* display: none; */
     width: 70%;
     height: 20vh;
     background-color: white;
@@ -386,7 +356,6 @@ p {
 
 
 .modal3 {
-    /* display: none; */
     width: 70%;
     height: 20vh;
     background-color: white;
@@ -429,7 +398,6 @@ p {
 
 
 .modal4 {
-    /* display: none; */
     width: 70%;
     height: 20vh;
     background-color: white;
@@ -463,11 +431,11 @@ p {
         transform: scale(1);
     }
 
-    33% {
+    32% {
         transform: scale(1.1);
     }
 
-    34% {
+    42% {
         transform: scale(1);
     }
 
@@ -482,11 +450,11 @@ p {
         transform: scale(1);
     }
 
-    33% {
+    32% {
         transform: scale(1.1);
     }
 
-    34% {
+    42% {
         transform: scale(1);
     }
 
@@ -496,33 +464,33 @@ p {
 }
 
 @-webkit-keyframes item2-pulse {
-    35% {
+    44% {
         transform: scale(1);
     }
 
-    38% {
+    46% {
         transform: scale(1.1);
     }
 
-    39% {
+    56% {
         transform: scale(1);
     }
 
-    90% {
+    100% {
         transform: scale(1);
     }
 }
 
 @keyframes item2-pulse {
-    35% {
+    44% {
         transform: scale(1);
     }
 
-    38% {
+    46% {
         transform: scale(1.1);
     }
 
-    39% {
+    56% {
         transform: scale(1);
     }
 
@@ -533,15 +501,15 @@ p {
 
 
 @-webkit-keyframes item3-pulse {
-    40% {
+    58% {
         transform: scale(1);
     }
 
-    43% {
+    60% {
         transform: scale(1.1);
     }
 
-    44% {
+    70% {
         transform: scale(1);
     }
 
@@ -551,15 +519,15 @@ p {
 }
 
 @keyframes item3-pulse {
-    40% {
+    58% {
         transform: scale(1);
     }
 
-    43% {
+    60% {
         transform: scale(1.1);
     }
 
-    44% {
+    70% {
         transform: scale(1);
     }
 
@@ -569,15 +537,15 @@ p {
 }
 
 @-webkit-keyframes item4-pulse {
-    45% {
+    72% {
         transform: scale(1);
     }
 
-    48% {
+    74% {
         transform: scale(1.1);
     }
 
-    51% {
+    84% {
         transform: scale(1);
     }
 
@@ -587,15 +555,15 @@ p {
 }
 
 @keyframes item4-pulse {
-    45% {
+    72% {
         transform: scale(1);
     }
 
-    48% {
+    74% {
         transform: scale(1.1);
     }
 
-    51% {
+    84% {
         transform: scale(1);
     }
 
